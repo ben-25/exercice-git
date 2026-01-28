@@ -1,1 +1,45 @@
+:root {
+    /*couleurs*/
+    --couleur-titre : #f6ff00;
+    --couleur-footer : #000000;
+    --couleur-encadrement : #df0000;
+    --couleur-fond : linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    
+    /*Typographie*/
+    --police-text : "Arial";
+}
+body {
+    background: var(--couleur-fond);
+}
 
+h1 {
+    font-family: var(--police-text);
+    color: var(--couleur-titre);
+    font-size: 2rem;
+    text-align: center;
+}
+.fleur img{
+    border-radius: 50%;
+}
+img {
+    border: 5px solid var(--couleur-encadrement);
+    border-radius: 5px;
+}
+
+footer {
+    font-family: var(--police-text);
+    color: var(--couleur-footer);
+    text-align: right;
+}
+
+ol {
+    color: var(--couleur-encadrement);
+}
+
+ul {
+    color: var(--couleur-titre);
+}
+
+header {
+    background-color: var(--couleur-encadrement);
+}
